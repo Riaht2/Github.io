@@ -23,6 +23,7 @@ h1 {
 /* Homepage */
 .home{
     background: teal;
+    text-align: center;
 }
 
 .profile{
