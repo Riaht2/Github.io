@@ -12,20 +12,41 @@ h1 {
     text-align: center;
     text-transform: uppercase;
   }
-  
-  h1 span:nth-child(even) {
-    color: green;
+
+  li{
+    font-size: 3em;
+    list-style-type: none;
+    text-align: center;
   }
+
+
 
 /* Homepage */
 .home{
-    background: lightcoral;
-    text-align: center;
+  background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/26/99/54583abf39ba185.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .profile{
   height: 500px;
   width: 370px;
+}
+
+h1{
+  color: purple;
+}
+
+.side{
+  height: 220px;
+  width: 370px;
+  filter: grayscale(70%);
+  padding: 20px;
+}
+
+a{
+  color: white;
 }
 
 /* Bio */
