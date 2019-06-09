@@ -5,9 +5,6 @@
 *Outline Elements
 */
 
-*{
-    outline: 1px dotted orange;
-}
 
 /* Global. Site. Base. Universal.*/
 h1 {
@@ -17,12 +14,12 @@ h1 {
   }
   
   h1 span:nth-child(even) {
-    color: thistle;
+    color: green;
   }
 
 /* Homepage */
 .home{
-    background: teal;
+    background: lightcoral;
     text-align: center;
 }
 
