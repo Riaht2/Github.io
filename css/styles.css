@@ -84,6 +84,16 @@ figcaption{
   font-family: 'Fresca', sans-serif;
 }
 
+article{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h2{
+  text-align: center;
+}
+
 .thumbnail{
   width: 150px;
   height: 230px;
