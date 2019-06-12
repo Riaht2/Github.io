@@ -14,9 +14,9 @@ h1 {
   }
 
   li{
-    font-size: 3em;
+    font-size: 2em;
     list-style-type: none;
-    text-align: center;
+    text-align: left;
   }
 
 
@@ -90,6 +90,28 @@ a{
   width: 300px;
   height: 200px;
   padding: 5px;
+  animation: slideInUp 2s;
+}
+
+.biopicstwo{
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+  animation: slideInUp 3s;
+}
+
+.biopicsthree{
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+  animation: slideInUp 4s;
+}
+
+.biopicsfour{
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+  animation: slideInUp 5s;
 }
 
 p{
@@ -124,6 +146,7 @@ article{
 
 h2{
   text-align: center;
+  color: darkblue;
 }
 
 .thumbnail{
