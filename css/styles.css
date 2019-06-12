@@ -32,7 +32,24 @@ h1 {
 .profile{
   height: 500px;
   width: 370px;
+  animation: slideInUp 2s;
 }
+
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+}    
+
 
 h1{
   color: purple;
@@ -43,6 +60,21 @@ h1{
   width: 370px;
   filter: grayscale(70%);
   padding: 20px;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
 }
 
 a{
@@ -97,16 +129,41 @@ h2{
 .thumbnail{
   width: 150px;
   height: 230px;
+  opacity: 0.5;
+}
+
+.thumbnail:hover{
+  opacity: 1;
 }
 
 .thumbnailtwo{
   width: 200px;
-  height: 130px;
+  height: 120px;
+  opacity: 0.5;
+}
+
+.thumbnailtwo:hover{
+  opacity: 1;
 }
 
 .thumbnailthree{
   width: 200px;
-  height: 150px;
+  height: 120px;
+  opacity: 0.5;
+}
+
+.thumbnailthree:hover{
+  opacity: 1;
+}
+
+.thumbnailfour{
+  width: 200px;
+  height: 120px;
+  opacity: 0.5;
+}
+
+.thumbnailfour:hover{
+  opacity: 1;
 }
 
 .portfolio{
